@@ -9,7 +9,7 @@ from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException
-from quickstart import sendGmail,sendGmailWithAttachments
+# from quickstart import sendGmail,sendGmailWithAttachments
 
 def sig_int(signal, frame, sender, reciever):
 	print('quiting...')
